@@ -1,0 +1,78 @@
+.header {
+    color: cyan;
+    text-align: center;
+    background-color: slateblue;
+    padding-top: 10px;
+    padding-bottom: 5px;
+    margin: 0px;
+    border-style: solid;
+    border-bottom-color: cyan;
+    border-width: 0px 0px 4px 0px;
+    font-family: "Aclonica", cursive;
+}
+
+.background {
+    background-image: url(http://1.bp.blogspot.com/-RysZHAPE2lU/Tz9AIorzUSI/AAAAAAAAByc/8HSGxv9PjO8/s1600/cool+background+designs+vbnvcn.jpg);
+    height: 100%;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden;
+}
+
+.main {
+    display: table;
+    margin: auto;
+    margin-top: 10px;
+}
+
+.main table tr:first-child td div, .main table tr:last-child td div, .main table tr td img {
+    background-color: coral;
+    border-color: cyan;
+    border-width: 4px;
+    border-style: solid;
+    margin: 25px;
+    border-radius: 5%;
+    height: 250px;
+    width: 250px;
+}
+.main table tr:first-child td div h3, .main table tr:last-child td div h3 {
+    text-align: center;
+    font-family: "Aclonica", cursive;
+    color: purple;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+.main table tr:first-child td div ul li {
+    font-size: large;
+    margin: 5px;
+}
+.main table tr:last-child td div ul li {
+    font-size: large;
+    margin: 10px;
+}
+
+.footer {
+    color: cyan;
+    text-align: center;
+    background-color: slateblue;
+    padding: 0px;
+    margin: 0px;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+    border-style: solid;
+    border-top-color: cyan;
+    border-width: 4px 0px 0px 0px;
+}
+.footer table {
+    display: table;
+    margin: auto;
+}
+.footer table tr td {
+    padding-left: 100px;
+    padding-right: 100px;
+}
