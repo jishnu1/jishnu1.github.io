@@ -9,6 +9,7 @@
     border-bottom-color: cyan;
     border-width: 0px 0px 4px 0px;
     font-family: "Aclonica", cursive;
+    white-space: nowrap;
 }
 
 .background {
@@ -75,4 +76,7 @@
 .footer table tr td {
     padding-left: 100px;
     padding-right: 100px;
+}
+.footer table tr td h2 i {
+    color: coral;
 }
