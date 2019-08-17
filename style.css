@@ -1,15 +1,18 @@
 .header {
+    background: rgb(63,94,251);
+    background: radial-gradient(circle, rgba(63,94,251,1) 0%, rgba(252,70,107,1) 100%);
     color: cyan;
     text-align: center;
-    background-color: slateblue;
-    padding-top: 10px;
-    padding-bottom: 5px;
+
     margin: 0px;
     border-style: solid;
     border-bottom-color: cyan;
     border-width: 0px 0px 4px 0px;
     font-family: "Aclonica", cursive;
     white-space: nowrap;
+}
+.header img {
+    height: 60px;
 }
 
 .background {
@@ -31,7 +34,8 @@
 }
 
 .main table tr:first-child td div, .main table tr:last-child td div, .main table tr td img {
-    background-color: coral;
+    background: rgb(34,193,195);
+background: linear-gradient(0deg, rgba(34,193,195,1) 0%, rgba(253,187,45,1) 100%);
     border-color: cyan;
     border-width: 4px;
     border-style: solid;
@@ -57,9 +61,10 @@
 }
 
 .footer {
+    background: rgb(63,94,251);
+    background: radial-gradient(circle, rgba(63,94,251,1) 0%, rgba(252,70,107,1) 100%);
     color: cyan;
     text-align: center;
-    background-color: slateblue;
     padding: 0px;
     margin: 0px;
     position: fixed;
