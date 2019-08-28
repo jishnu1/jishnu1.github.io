@@ -44,20 +44,16 @@
     height: 250px;
     width: 250px;
 }
-.main table tr:first-child td div h3, .main table tr:last-child td div h3 {
+.main table tr td div h3 {
     text-align: center;
     font-family: "Aclonica", cursive;
     color: purple;
     margin-top: 15px;
     margin-bottom: 15px;
 }
-.main table tr:first-child td div ul li {
+.main table tr td div ul li {
     font-size: large;
     margin: 5px;
-}
-.main table tr:last-child td div ul li {
-    font-size: large;
-    margin: 10px;
 }
 
 .footer {
