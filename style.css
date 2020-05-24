@@ -1,4 +1,5 @@
-.header {
+.header
+{
     background: rgb(63,94,251);
     background: radial-gradient(circle, rgba(63,94,251,1) 0%, rgba(252,70,107,1) 100%);
     color: cyan;
@@ -10,12 +11,15 @@
     border-width: 0px 0px 4px 0px;
     font-family: "Aclonica", cursive;
     white-space: nowrap;
+    position: fixed;
+    top: 0;
 }
-.header img {
+.header img
+{
     height: 60px;
 }
-
-.background {
+.background
+{
     background-image: url(http://1.bp.blogspot.com/-RysZHAPE2lU/Tz9AIorzUSI/AAAAAAAAByc/8HSGxv9PjO8/s1600/cool+background+designs+vbnvcn.jpg);
     height: 100%;
     width: 100%;
@@ -26,14 +30,15 @@
     padding: 0px;
     overflow-x: hidden;
 }
-
-.main {
+.main
+{
     display: table;
     margin: auto;
-    margin-top: 10px;
+    margin-top: 100px;
+    margin-bottom: 80px;
 }
-
-.main table tr:first-child td div, .main table tr:last-child td div, .main table tr td img {
+.main table tr:first-child td div, .main table tr:last-child td div, .main table tr td img
+{
     background: rgb(34,193,195);
     background: linear-gradient(0deg, rgba(34,193,195,1) 0%, rgba(253,187,45,1) 100%);
     border-color: cyan;
@@ -44,19 +49,21 @@
     height: 250px;
     width: 250px;
 }
-.main table tr td div h3 {
+.main table tr td div h3
+{
     text-align: center;
     font-family: "Aclonica", cursive;
     color: purple;
     margin-top: 15px;
     margin-bottom: 15px;
 }
-.main table tr td div ul li {
+.main table tr td div ul li
+{
     font-size: large;
     margin: 5px;
 }
-
-.footer {
+.footer
+{
     background: rgb(63,94,251);
     background: radial-gradient(circle, rgba(63,94,251,1) 0%, rgba(252,70,107,1) 100%);
     color: cyan;
@@ -70,15 +77,44 @@
     border-top-color: cyan;
     border-width: 4px 0px 0px 0px;
 }
-.footer table {
+.footer table
+{
     display: table;
     margin: auto;
 }
-.footer table tr td {
+.footer table tr td
+{
     padding-left: 100px;
     padding-right: 100px;
     white-space: nowrap;
 }
-.footer table tr td h2 i {
+.footer table tr td h2 i
+{
     color: coral;
+}
+
+
+
+.movies
+{
+    display: table;
+    margin: auto;
+    margin-top: 80px;
+    margin-bottom: 80px;
+}
+.movies tr td:first-child
+{
+    font-family: "Aclonica", cursive;
+    font-size: large;
+    margin: 15px;
+}
+.movies tr td img
+{
+    width: 120px;
+    height: 180px;
+    margin: 15px;
+    border-color: cyan;
+    border-width: 2px;
+    border-style: solid;
+    border-radius: 5%;
 }
