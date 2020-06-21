@@ -84,8 +84,7 @@
 }
 .footer table tr td
 {
-    padding-left: 100px;
-    padding-right: 100px;
+    width: 280px;
     white-space: nowrap;
 }
 .footer table tr td h2 i
@@ -93,28 +92,56 @@
     color: coral;
 }
 
-
-
-.movies
+.page
 {
     display: table;
     margin: auto;
     margin-top: 80px;
     margin-bottom: 80px;
 }
-.movies tr td:first-child
+.genre
 {
     font-family: "Aclonica", cursive;
     font-size: large;
+    color: coral;
     margin: 15px;
 }
-.movies tr td img
+.page tr td img
 {
     width: 120px;
     height: 180px;
-    margin: 15px;
+    margin: 10px;
     border-color: cyan;
     border-width: 2px;
     border-style: solid;
     border-radius: 5%;
+}
+.section
+{
+    border-top: 5px solid red;
+    border-bottom: 5px solid red;
+    color: coral;
+    text-align: center;
+    font-family: "Aclonica", cursive;
+    font-size: xx-large;
+}
+
+.referrals
+{
+    display: table;
+    margin: auto;
+    margin: 80px;
+}
+.row td:first-child
+{
+    font-family: "Aclonica", cursive;
+    color: coral;
+    font-size: large;
+    width: 200px;
+    margin: 20px 20px 20px 50px;
+}
+.row td:last-child
+{
+    margin: 20px 50px 20px 20px;
+    color: coral;
 }
